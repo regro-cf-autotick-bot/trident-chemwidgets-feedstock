@@ -1,5 +1,5 @@
 {% set name = "trident-chemwidgets" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/trident_chemwidgets-{{ version }}.tar.gz
-  sha256: a8515df75753ce154af96ab8c934dcd1f288bb40484828ab82af4918da6edf71
+  sha256: ffeba55709a8b264a82bb149502fc26920e103577c2eab517584ae1843d7ca46
 
 build:
   noarch: python
